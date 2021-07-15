@@ -19,11 +19,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="362652b3-7c02-490e-a3b5-d45cbecac27b" name="Default Changelist" comment="" />
+    <list default="true" id="362652b3-7c02-490e-a3b5-d45cbecac27b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/geometry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/percents.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_group.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,15 +50,82 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.geometry">
+    <configuration name="geometry" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geometry.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hello.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="percents" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/percents.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in test_add_group.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,6 +145,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.geometry" />
+        <item itemvalue="Python.percents" />
+        <item itemvalue="Python.hello" />
         <item itemvalue="Python tests.pytest in test_add_group.py" />
       </list>
     </recent_temporary>
@@ -84,6 +167,10 @@
       <workItem from="1624950393368" duration="1505000" />
       <workItem from="1624952140665" duration="1951000" />
       <workItem from="1625070178670" duration="46000" />
+      <workItem from="1626260858145" duration="2232000" />
+      <workItem from="1626265653891" duration="905000" />
+      <workItem from="1626333857742" duration="2224000" />
+      <workItem from="1626375355643" duration="1519000" />
     </task>
     <servers />
   </component>
@@ -103,35 +190,35 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1624885704445">
+    <state x="476" y="279" key="FileChooserDialogImpl" timestamp="1626265797726">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1624885704445" />
-    <state width="1175" height="176" key="GridCell.Tab.0.bottom" timestamp="1624951965011">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="476" y="279" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1626265797726" />
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1626376680657">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1175" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624951965011" />
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1624886072841" />
-    <state width="1175" height="176" key="GridCell.Tab.0.center" timestamp="1624951965011">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1626376680657" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1626376680656">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1175" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624951965011" />
-    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1624886072840" />
-    <state width="1175" height="176" key="GridCell.Tab.0.left" timestamp="1624951965011">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1626376680656" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1626376680656">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1175" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624951965011" />
-    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1624886072840" />
-    <state width="1175" height="176" key="GridCell.Tab.0.right" timestamp="1624951965011">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1626376680656" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1626376680657">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1175" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624951965011" />
-    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1624886072840" />
-    <state x="246" y="19" key="SettingsEditor" timestamp="1624951692775">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1626376680657" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1626266566843">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="246" y="19" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1624951692775" />
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1624885946657" />
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1626266566843" />
     <state x="515" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1624950442737">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -143,5 +230,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_training$pytest_in_test_add_group_py.coverage" NAME="pytest in test_add_group.py Coverage Results" MODIFIED="1624951806764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_training$hello.coverage" NAME="hello Coverage Results" MODIFIED="1626336371480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_training$percents.coverage" NAME="percents Coverage Results" MODIFIED="1626337593137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_training$geometry.coverage" NAME="geometry Coverage Results" MODIFIED="1626377016464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
