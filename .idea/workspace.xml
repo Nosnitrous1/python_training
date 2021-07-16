@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="362652b3-7c02-490e-a3b5-d45cbecac27b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/geometry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/percents.py" afterDir="false" />
+    <list default="true" id="362652b3-7c02-490e-a3b5-d45cbecac27b" name="Default Changelist" comment="Создан питон файл geometry.py">
+      <change afterPath="$PROJECT_DIR$/geom2d/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geom2d/point.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometry.py" beforeDir="false" afterPath="$PROJECT_DIR$/geometry.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1uZuReSLZ8owGLaOUKw2BcC6a3R" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -170,8 +172,17 @@
       <workItem from="1626260858145" duration="2232000" />
       <workItem from="1626265653891" duration="905000" />
       <workItem from="1626333857742" duration="2224000" />
-      <workItem from="1626375355643" duration="1519000" />
+      <workItem from="1626375355643" duration="1842000" />
+      <workItem from="1626419849921" duration="392000" />
     </task>
+    <task id="LOCAL-00001" summary="Создан питон файл geometry.py">
+      <created>1626377139492</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626377139492</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,36 +200,44 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Создан питон файл geometry.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создан питон файл geometry.py" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="476" y="279" key="FileChooserDialogImpl" timestamp="1626265797726">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="476" y="279" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1626265797726" />
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1626376680657">
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1626377016493">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1175" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624951965011" />
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1626376680657" />
-    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1626376680656">
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1626377016493" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1626377016493">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1175" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624951965011" />
-    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1626376680656" />
-    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1626376680656">
+    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1626377016493" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1626377016493">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1175" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624951965011" />
-    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1626376680656" />
-    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1626376680657">
+    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1626377016493" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1626377016493">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1175" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624951965011" />
-    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1626376680657" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1626377016493" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1626266566843">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="246" y="19" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1624951692775" />
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1626266566843" />
+    <state x="409" y="185" key="Vcs.Push.Dialog.v2" timestamp="1626377160155">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="409" y="185" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1626377160155" />
     <state x="515" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1624950442737">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
